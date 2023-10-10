@@ -1,2 +1,3 @@
-k pasa colega dodne esta mi 
-aqui en el callejon
+# EJERCICIOS DE JAVASCRIPT
+
+Algunos ejercicios de JavaScript :) 
