@@ -1,0 +1,36 @@
+html{
+    background-color: #F5EBEB;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #867070;
+}
+
+.descripcion p{
+    color: #867070;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #D5B4B4;
+    font-weight: bold;
+}
+
+input{
+    width: 40px;
+    margin-left: 5%;
+    background-color: #F5EBEB;
+}
+
+
+.boton{
+    margin-left: 5%;
+}
+
+.boton button{
+    
+    background-color: #E4D0D0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
