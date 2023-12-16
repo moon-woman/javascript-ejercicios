@@ -23,7 +23,7 @@ let miArr = [
     [11, 22, 33, 3, 1, 867, 2, 3],
     [4, 5],
     10
-  ];
+  ]; 
 
   let mayorLong = 0;
   let resul = 0;
