@@ -6,7 +6,6 @@ let op1 = 0, op2 = 0, resul = 0, operacion;
 
 let numeros = document.querySelectorAll('.numeros');
 let operadores = document.querySelectorAll('.operador');
-// let flotante = document.getElementById("float");
 
 let mostrar = document.getElementById("mostrar");
 let limpiar = document.getElementById("limpiar");
@@ -60,7 +59,6 @@ function division(){
 
 
 igual.onclick = function(){
-    console.log("esto es op2" + mostrar.value);
     op2 = mostrar.value.split(operacion)[1];
     resolver();
 }
@@ -86,8 +84,6 @@ function resolver(){
 
     switch(operacion){
         case "+":
-            console.log(op1);
-            console.log(op2);
             resul = parseFloat(op1) + parseFloat(op2);
             break;
         case "-":
