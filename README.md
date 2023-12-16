@@ -1,3 +1,3 @@
 # EJERCICIOS DE JAVASCRIPT
 
-Algunos ejercicios de JavaScript :) 
+Algunos ejercicios de JavaScript :)
