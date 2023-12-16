@@ -1,0 +1,27 @@
+
+input{
+    width: 100%;
+}
+
+input#mostrar{
+    display: inline-block;
+    padding: 0;
+    width: 100%;
+}
+
+input#borrar{
+    display: inline-block;
+    padding: 0;
+    width: 100%;
+}
+
+input#calcular{
+    display: inline-block;
+    padding: 0;
+    width: 100%;
+}
+
+table{
+    border: 1px solid;
+    padding: 10px;
+}
