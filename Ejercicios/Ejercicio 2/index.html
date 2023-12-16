@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1 class="titulo">Calculadora</h1>
+    <p class="descripcion">Una calculadora facililla</p>
+    <table>
+        <tr>
+            <td colspan="4">
+                <input type="text" id="mostrar" readonly>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <input type="button" id="limpiar" value="Borrar" onclick="borrar()">
+            </td>
+        </tr>
+        <tr>
+            <td><input type="button" class="numeros" value="1"></td>
+            <td><input type="button" class="numeros" value="2"></td>
+            <td><input type="button" class="numeros" value="3"></td>
+            <td><input type="button" onclick="suma()" class="operador" value="+"></td>
+        </tr>
+        <tr>
+            <td><input type="button" class="numeros" id="cuatro" value="4"></td>
+            <td><input type="button" class="numeros" value="5"></td>
+            <td><input type="button" class="numeros" value="6"></td>
+            <td><input type="button" onclick="resta()" class="operador" value="-"></td>
+        </tr>
+        <tr>
+            <td><input type="button" class="numeros" value="7"></td>
+            <td><input type="button" class="numeros" value="8"></td>
+            <td><input type="button" class="numeros" value="9"></td>
+            <td><input type="button" onclick="multi()" class="operador" value="*"></td>
+        </tr>
+        <tr>
+            <td><input type="button" id="reset" value="C" onclick="reset()"></td>
+            <td><input type="button" class="numeros" value="0"></td>
+            <td><input type="button" class ="numeros" value="."></td>
+            <td><input type="button" onclick="division()" class="operador" value="/"></td>
+        </tr>
+        <tr>
+            <td colspan="4"><input type="button" id="igual" value="="></td>
+        </tr>
+        <script src="ejercicio2.js"></script>
+    </table>
+</body>
+</html>
